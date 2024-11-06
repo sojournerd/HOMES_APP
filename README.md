@@ -4,7 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+Currently you must have JSON Server running inorder for app to function. See **JSON server** below on how-to run json server
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## JSON server
+
+Run `json-server --watch db.json`
+
+If you do not have JSON Server installed, run (assuming you have node.js):
+
+`npm install -g json-server`
 
 ## Code scaffolding
 
